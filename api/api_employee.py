@@ -4,7 +4,7 @@ import api
 
 
 class ApiEmployee:
-    def __init__(self):
+    def __init__(self): 
         # 添加员工
         self.url_add = api.BASE_URL + "/api/sys/user"
 
